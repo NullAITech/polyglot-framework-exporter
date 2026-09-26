@@ -1,0 +1,37 @@
+{
+  "name": "polyglot-framework-exporter",
+  "version": "2.0.0",
+  "description": "Zero-Dependency Polyglot Framework Transpiler, Multi-Stack Component & Deploy Config Exporter — Desktop Workstation",
+  "main": "electron/main.cjs",
+  "bin": {
+    "polyglot": "./bin/polyglot.js",
+    "polyglot-export": "./bin/polyglot.js"
+  },
+  "scripts": {
+    "start": "python3 -m polyglot_framework_exporter.cli serve --port 8086",
+    "electron": "electron .",
+    "app": "electron .",
+    "test": "pytest tests/"
+  },
+  "keywords": [
+    "polyglot",
+    "framework-exporter",
+    "transpiler",
+    "react",
+    "vue",
+    "svelte",
+    "astro",
+    "angular",
+    "qwik",
+    "solid",
+    "zero-egress",
+    "sovereign",
+    "electron",
+    "zoth"
+  ],
+  "author": "NullAI Tech / Zoth Team",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^34.5.8"
+  }
+}

@@ -1,0 +1,20 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Polyglot Studio
+GenericName=Multi-Framework Transpiler & Deploy Exporter
+Comment=Zero-Dependency Polyglot Framework Transpiler, Multi-Stack Component & Deploy Config Exporter
+Exec=/usr/local/bin/polyglot desktop
+Icon=/media/neo/f2fdda77-178b-4603-ae80-c7aa4cd97908/zoth-micro-repos/polyglot-framework-exporter/assets/icon.png
+Terminal=false
+Categories=Development;System;Utility;
+StartupNotify=true
+Actions=CLI;Web;
+
+[Desktop Action CLI]
+Name=Open Polyglot CLI
+Exec=x-terminal-emulator -e "/usr/local/bin/polyglot --help"
+
+[Desktop Action Web]
+Name=Open Web UI (Port 8086)
+Exec=/usr/local/bin/polyglot web
